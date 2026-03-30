@@ -1,0 +1,19 @@
+{
+  "name": "toggle-legend",
+  "label": "Toggle Legend",
+  "type": "widget",
+  "version": "1.18.0",
+  "exbVersion": "1.18.0",
+  "translatedLocales": [
+    "en"
+  ],
+  "dependency": [
+    "jimu-arcgis"
+  ],
+  "defaultSize": {
+    "width": 320,
+    "height": 500
+  },
+  "settingUri": "src/setting/setting.tsx",
+  "properties": {}
+}

@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="Map layers icon with checked boxes">
+  <g fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round">
+    <g stroke-width="8">
+      <rect x="36" y="110" width="72" height="72" rx="8"/>
+      <path d="M54 146 L68 160 L92 132"/>
+      <rect x="36" y="218" width="72" height="72" rx="8"/>
+      <path d="M54 254 L68 268 L92 240"/>
+      <rect x="36" y="326" width="72" height="72" rx="8"/>
+      <path d="M54 362 L68 376 L92 348"/>
+    </g>
+
+    <g stroke-width="7">
+      <g transform="translate(0,-4)">
+        <polygon points="172,82 430,132 304,220 82,172"/>
+        <path d="M122 160 L196 116 L318 140 L255 186"/>
+        <path d="M210 112 L248 162 L358 144"/>
+        <path d="M150 150 L214 182"/>
+      </g>
+
+      <g transform="translate(0,24)">
+        <polygon points="172,152 430,202 304,290 82,242"/>
+        <path d="M122 230 L204 182 L330 208 L252 258"/>
+        <path d="M194 186 L216 266"/>
+        <path d="M280 198 L156 252"/>
+      </g>
+
+      <g transform="translate(0,52)">
+        <polygon points="172,222 430,272 304,360 82,312"/>
+        <path d="M124 304 C160 284, 208 284, 246 300"/>
+        <path d="M146 322 C184 302, 232 304, 270 320"/>
+        <path d="M170 340 C208 322, 250 322, 290 338"/>
+        <path d="M310 294 C334 302, 356 314, 380 330"/>
+      </g>
+    </g>
+  </g>
+</svg>
