@@ -1,0 +1,809 @@
+{
+  "pages": {
+    "page_0": {
+      "id": "page_0",
+      "mode": "FIT_WINDOW",
+      "type": "NORMAL",
+      "layout": {
+        "LARGE": "layout_0"
+      },
+      "isDefault": true,
+      "isVisible": true,
+      "label": "Page",
+      "header": true
+    }
+  },
+  "layouts": {
+    "layout_0": {
+      "type": "FIXED",
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_1",
+          "bbox": {
+            "left": "0.0%",
+            "right": "19.3%",
+            "top": "0.0%",
+            "bottom": "0.0%",
+            "width": "80.7%",
+            "height": "100.0%"
+          },
+          "setting": {
+            "autoProps": {
+              "left": false,
+              "right": true,
+              "top": true,
+              "bottom": false
+            },
+            "vCenter": false,
+            "hCenter": false
+          }
+        },
+        "1": {
+          "type": "WIDGET",
+          "widgetId": "widget_7",
+          "bbox": {
+            "left": "80.7%",
+            "right": "-0.1%",
+            "top": "0.0%",
+            "bottom": "0.0%",
+            "width": "19.4%",
+            "height": "100.0%"
+          },
+          "setting": {
+            "autoProps": {
+              "right": false,
+              "left": true,
+              "top": true,
+              "bottom": false
+            },
+            "vCenter": false,
+            "hCenter": false
+          }
+        }
+      },
+      "order": [
+        "0",
+        "1"
+      ]
+    },
+    "layout_1": {
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_15",
+          "bbox": {
+            "left": "0.0%",
+            "right": "69.6%",
+            "top": "10.4%",
+            "bottom": "1.9%",
+            "width": "30.4%",
+            "height": "87.7%"
+          },
+          "setting": {
+            "autoProps": {
+              "left": false,
+              "right": true,
+              "top": true,
+              "bottom": false
+            },
+            "vCenter": false,
+            "hCenter": false
+          }
+        },
+        "1": {
+          "type": "WIDGET",
+          "widgetId": "widget_17",
+          "bbox": {
+            "left": "6.3%",
+            "right": "89.5%",
+            "top": "1.1%",
+            "bottom": "93.9%",
+            "width": "4.80%",
+            "height": "5.10%"
+          },
+          "setting": {
+            "autoProps": {
+              "right": true,
+              "left": false,
+              "top": false,
+              "bottom": true
+            },
+            "vCenter": false,
+            "hCenter": false
+          }
+        },
+        "2": {
+          "type": "WIDGET",
+          "widgetId": "widget_18",
+          "bbox": {
+            "left": "0.7%",
+            "right": "94.5%",
+            "top": "1.1%",
+            "bottom": "93.8%",
+            "width": "4.8%",
+            "height": "5.1%"
+          },
+          "setting": {
+            "autoProps": {
+              "left": false,
+              "right": true,
+              "top": false,
+              "bottom": true
+            },
+            "vCenter": false,
+            "hCenter": false
+          }
+        }
+      },
+      "type": "FIXED",
+      "label": "Map FixedLayout",
+      "order": [
+        "0",
+        "1",
+        "2"
+      ]
+    },
+    "layout_2": {
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_10",
+          "bbox": {
+            "left": "0.0%",
+            "right": "45.5%",
+            "top": "-1.6%",
+            "bottom": "3.4%",
+            "width": "54.5%",
+            "height": "98.2%"
+          },
+          "setting": {
+            "autoProps": {
+              "left": false,
+              "right": true,
+              "top": false,
+              "bottom": true
+            },
+            "vCenter": false,
+            "hCenter": false
+          }
+        }
+      },
+      "type": "FIXED",
+      "setting": {
+        "lockDescendants": true
+      },
+      "order": [
+        "0"
+      ]
+    },
+    "layout_6": {
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_16",
+          "bbox": {
+            "left": "0.0%",
+            "right": "0.0%",
+            "top": "0.0%",
+            "bottom": "0.0%",
+            "width": "100.0%",
+            "height": "100.0%"
+          },
+          "setting": {
+            "autoProps": {
+              "right": false,
+              "left": true,
+              "top": true,
+              "bottom": false
+            }
+          }
+        }
+      },
+      "type": "FIXED",
+      "label": "First",
+      "order": [
+        "0"
+      ]
+    },
+    "layout_7": {
+      "content": {},
+      "type": "FIXED",
+      "label": "Second"
+    }
+  },
+  "exbVersion": "1.18.0",
+  "mainSizeMode": "LARGE",
+  "theme": "themes/default/",
+  "forBuilderAttributes": {
+    "lockLayout": false
+  },
+  "template": "blankfullscreen",
+  "widgets": {
+    "widget_1": {
+      "uri": "widgets/arcgis/arcgis-map/",
+      "version": "1.18.0",
+      "label": "Map",
+      "config": {
+        "toolConfig": {
+          "canZoom": false,
+          "canHome": false,
+          "canSearch": true,
+          "canNavigation": false,
+          "canFullScreen": true,
+          "canScaleBar": false
+        },
+        "isUseCustomMapState": true,
+        "initialMapDataSourceID": "dataSource_1",
+        "initialMapState": {
+          "viewPoint": {
+            "rotation": 0,
+            "scale": 144447.638572,
+            "targetGeometry": {
+              "spatialReference": {
+                "latestWkid": 3857,
+                "wkid": 102100
+              },
+              "x": -10562684.470856363,
+              "y": 4687367.421670085
+            }
+          },
+          "extent": {
+            "spatialReference": {
+              "latestWkid": 3857,
+              "wkid": 102100
+            },
+            "xmin": -10582424.333410984,
+            "ymin": 4672653.293725208,
+            "xmax": -10542944.608301742,
+            "ymax": 4702081.549614961
+          },
+          "rotation": 0,
+          "viewType": "2d"
+        },
+        "scaleRange": null
+      },
+      "id": "widget_1",
+      "layouts": {
+        "MapFixedLayout": {
+          "LARGE": "layout_1"
+        }
+      },
+      "dataActions": {
+        "showOnMap": {
+          "config": {
+            "isUseCustomSymbol": true,
+            "isOperationalLayer": true,
+            "symbolOption": {
+              "pointSymbol": {
+                "type": "esriSMS",
+                "color": [
+                  255,
+                  255,
+                  0,
+                  150
+                ],
+                "angle": 0,
+                "xoffset": 0,
+                "yoffset": 0,
+                "size": 12,
+                "style": "esriSMSCircle",
+                "outline": {
+                  "type": "esriSLS",
+                  "color": [
+                    255,
+                    255,
+                    0,
+                    150
+                  ],
+                  "width": 1,
+                  "style": "esriSLSSolid"
+                }
+              },
+              "polylineSymbol": {
+                "type": "esriSLS",
+                "color": [
+                  255,
+                  255,
+                  0,
+                  150
+                ],
+                "width": 0.75,
+                "style": "esriSLSSolid"
+              },
+              "polygonSymbol": {
+                "type": "esriSFS",
+                "color": [
+                  255,
+                  255,
+                  0,
+                  150
+                ],
+                "outline": {
+                  "type": "esriSLS",
+                  "color": [
+                    255,
+                    255,
+                    0,
+                    150
+                  ],
+                  "width": 1,
+                  "style": "esriSLSSolid"
+                },
+                "style": "esriSFSSolid"
+              }
+            }
+          }
+        }
+      },
+      "useDataSources": [
+        {
+          "dataSourceId": "dataSource_1",
+          "mainDataSourceId": "dataSource_1"
+        }
+      ]
+    },
+    "widget_7": {
+      "uri": "widgets/toggle-legend/",
+      "version": "1.18.0",
+      "label": "Toggle Legend",
+      "config": {},
+      "id": "widget_7",
+      "useMapWidgetIds": [
+        "widget_1"
+      ]
+    },
+    "widget_10": {
+      "uri": "widgets/common/text/",
+      "version": "1.18.0",
+      "label": "Text",
+      "config": {
+        "text": "<p><strong>Johnson County - Marais Des Cygnes Watershed 4 - Effective Flood Hazard Data and Comments</strong></p>",
+        "placeholder": "Double click to edit text",
+        "style": {
+          "wrap": true
+        }
+      },
+      "id": "widget_10"
+    },
+    "widget_15": {
+      "uri": "widgets/layout/sidebar/",
+      "version": "1.18.0",
+      "label": "Sidebar",
+      "config": {
+        "direction": "HORIZONTAL",
+        "collapseSide": "FIRST",
+        "overlay": false,
+        "size": "291px",
+        "divider": {
+          "visible": true,
+          "lineStyle": {
+            "type": "solid",
+            "color": "var(--light-500)",
+            "width": "1px"
+          }
+        },
+        "resizable": false,
+        "toggleBtn": {
+          "visible": false,
+          "iconSource": 0,
+          "icon": "LEFT",
+          "offsetX": 15,
+          "offsetY": 0,
+          "position": "CENTER",
+          "iconSize": 14,
+          "width": 15,
+          "height": 60,
+          "border": {
+            "type": "solid",
+            "color": "var(--light-500)",
+            "width": "1px"
+          },
+          "color": {
+            "normal": {
+              "icon": {
+                "useTheme": false,
+                "color": "#ffffff"
+              },
+              "bg": {
+                "useTheme": false,
+                "color": "#2e7d32"
+              }
+            },
+            "hover": {
+              "bg": {
+                "useTheme": false,
+                "color": "var(--success-500)"
+              }
+            }
+          },
+          "expandStyle": {
+            "style": {
+              "borderRadius": "0 92px 92px 0"
+            }
+          },
+          "collapseStyle": {
+            "style": {
+              "borderRadius": "0 92px 92px 0"
+            }
+          }
+        },
+        "defaultState": 0
+      },
+      "id": "widget_15",
+      "layouts": {
+        "FIRST": {
+          "LARGE": "layout_6"
+        },
+        "SECOND": {
+          "LARGE": "layout_7"
+        }
+      }
+    },
+    "widget_16": {
+      "uri": "widgets/common/edit/",
+      "version": "1.18.0",
+      "label": "Edit",
+      "config": {
+        "layersConfig": [],
+        "editMode": "GEOMETRY",
+        "selfSnapping": false,
+        "featureSnapping": false,
+        "defaultSelfEnabled": false,
+        "defaultFeatureEnabled": false,
+        "defaultSnapLayers": [],
+        "tooltip": false,
+        "templateFilter": false,
+        "liveDataEditing": false,
+        "initialReshapeMode": false,
+        "relatedRecords": false,
+        "description": "",
+        "noDataMessage": "",
+        "snapSettingMode": "FLEXIBLE",
+        "mapViewsConfig": {
+          "widget_1-dataSource_1": {
+            "customizeLayers": true,
+            "customJimuLayerViewIds": [
+              "widget_1-dataSource_1-b9135009e1e74c619e0ba3fd8c1df4b2"
+            ],
+            "layersConfig": [
+              {
+                "id": "dataSource_1-b9135009e1e74c619e0ba3fd8c1df4b2",
+                "name": "Comments",
+                "useDataSource": {
+                  "dataSourceId": "dataSource_1-b9135009e1e74c619e0ba3fd8c1df4b2",
+                  "mainDataSourceId": "dataSource_1-b9135009e1e74c619e0ba3fd8c1df4b2",
+                  "rootDataSourceId": "dataSource_1"
+                },
+                "addRecords": true,
+                "deleteRecords": true,
+                "updateRecords": true,
+                "updateAttributes": true,
+                "updateGeometries": true,
+                "showFields": [
+                  {
+                    "jimuName": "Id",
+                    "name": "Id",
+                    "type": "NUMBER",
+                    "esriType": "esriFieldTypeInteger",
+                    "alias": "Id",
+                    "format": {
+                      "digitSeparator": false,
+                      "places": 0
+                    }
+                  },
+                  {
+                    "jimuName": "Name",
+                    "name": "Name",
+                    "type": "STRING",
+                    "esriType": "esriFieldTypeString",
+                    "alias": "Name",
+                    "format": null
+                  },
+                  {
+                    "jimuName": "Date",
+                    "name": "Date",
+                    "type": "DATE",
+                    "esriType": "esriFieldTypeDate",
+                    "alias": "Date",
+                    "format": null
+                  },
+                  {
+                    "jimuName": "Email",
+                    "name": "Email",
+                    "type": "STRING",
+                    "esriType": "esriFieldTypeString",
+                    "alias": "Email",
+                    "format": null
+                  },
+                  {
+                    "jimuName": "Phone",
+                    "name": "Phone",
+                    "type": "STRING",
+                    "esriType": "esriFieldTypeString",
+                    "alias": "Phone",
+                    "format": null
+                  },
+                  {
+                    "jimuName": "Org",
+                    "name": "Org",
+                    "type": "STRING",
+                    "esriType": "esriFieldTypeString",
+                    "alias": "Organization",
+                    "format": null
+                  },
+                  {
+                    "jimuName": "Comment",
+                    "name": "Comment",
+                    "type": "STRING",
+                    "esriType": "esriFieldTypeString",
+                    "alias": "Comment",
+                    "format": null
+                  },
+                  {
+                    "jimuName": "Action",
+                    "name": "Action",
+                    "type": "STRING",
+                    "esriType": "esriFieldTypeString",
+                    "alias": "Action",
+                    "format": null
+                  },
+                  {
+                    "jimuName": "Final",
+                    "name": "Final",
+                    "type": "STRING",
+                    "esriType": "esriFieldTypeString",
+                    "alias": "Final Action",
+                    "format": null
+                  },
+                  {
+                    "jimuName": "GlobalID",
+                    "name": "GlobalID",
+                    "type": "STRING",
+                    "esriType": "esriFieldTypeGlobalID",
+                    "alias": "GlobalID",
+                    "format": null
+                  }
+                ],
+                "groupedFields": [
+                  {
+                    "jimuName": "Id",
+                    "name": "Id",
+                    "type": "NUMBER",
+                    "esriType": "esriFieldTypeInteger",
+                    "alias": "Id",
+                    "format": {
+                      "digitSeparator": false,
+                      "places": 0
+                    },
+                    "editAuthority": true,
+                    "subDescription": "",
+                    "editable": true
+                  },
+                  {
+                    "jimuName": "Name",
+                    "name": "Name",
+                    "type": "STRING",
+                    "esriType": "esriFieldTypeString",
+                    "alias": "Name",
+                    "format": null,
+                    "editAuthority": true,
+                    "subDescription": "",
+                    "editable": true
+                  },
+                  {
+                    "jimuName": "Date",
+                    "name": "Date",
+                    "type": "DATE",
+                    "esriType": "esriFieldTypeDate",
+                    "alias": "Date",
+                    "format": null,
+                    "editAuthority": true,
+                    "subDescription": "",
+                    "editable": true
+                  },
+                  {
+                    "jimuName": "Email",
+                    "name": "Email",
+                    "type": "STRING",
+                    "esriType": "esriFieldTypeString",
+                    "alias": "Email",
+                    "format": null,
+                    "editAuthority": true,
+                    "subDescription": "",
+                    "editable": true
+                  },
+                  {
+                    "jimuName": "Phone",
+                    "name": "Phone",
+                    "type": "STRING",
+                    "esriType": "esriFieldTypeString",
+                    "alias": "Phone",
+                    "format": null,
+                    "editAuthority": true,
+                    "subDescription": "",
+                    "editable": true
+                  },
+                  {
+                    "jimuName": "Org",
+                    "name": "Org",
+                    "type": "STRING",
+                    "esriType": "esriFieldTypeString",
+                    "alias": "Organization",
+                    "format": null,
+                    "editAuthority": true,
+                    "subDescription": "",
+                    "editable": true
+                  },
+                  {
+                    "jimuName": "Comment",
+                    "name": "Comment",
+                    "type": "STRING",
+                    "esriType": "esriFieldTypeString",
+                    "alias": "Comment",
+                    "format": null,
+                    "editAuthority": true,
+                    "subDescription": "",
+                    "editable": true
+                  },
+                  {
+                    "jimuName": "Action",
+                    "name": "Action",
+                    "type": "STRING",
+                    "esriType": "esriFieldTypeString",
+                    "alias": "Action",
+                    "format": null,
+                    "editAuthority": true,
+                    "subDescription": "",
+                    "editable": true
+                  },
+                  {
+                    "jimuName": "Final",
+                    "name": "Final",
+                    "type": "STRING",
+                    "esriType": "esriFieldTypeString",
+                    "alias": "Final Action",
+                    "format": null,
+                    "editAuthority": true,
+                    "subDescription": "",
+                    "editable": true
+                  },
+                  {
+                    "jimuName": "GlobalID",
+                    "name": "GlobalID",
+                    "type": "STRING",
+                    "esriType": "esriFieldTypeGlobalID",
+                    "alias": "GlobalID",
+                    "format": null,
+                    "editAuthority": false,
+                    "subDescription": "",
+                    "editable": false
+                  }
+                ],
+                "layerHonorMode": "WEBMAP"
+              }
+            ]
+          }
+        },
+        "defaultTooltipEnabled": false
+      },
+      "id": "widget_16",
+      "useMapWidgetIds": [
+        "widget_1"
+      ]
+    },
+    "widget_17": {
+      "uri": "widgets/common/button/",
+      "version": "1.18.0",
+      "label": "Button",
+      "config": {
+        "functionConfig": {
+          "text": "",
+          "textExpression": null,
+          "toolTip": "Toggle Edit",
+          "toolTipExpression": null
+        },
+        "styleConfig": {
+          "themeStyle": {
+            "quickStyleType": "default"
+          },
+          "customStyle": {
+            "regular": {
+              "enableDynamicStyle": false,
+              "background": {
+                "color": "#ffffff",
+                "fillType": "fit",
+                "image": {
+                  "url": "${appResourceUrl}/images/background_setting/1774648748528.png",
+                  "originalUrl": "${appResourceUrl}/images/background_setting/1774648748528.png",
+                  "fileName": "1774648748528.png",
+                  "originalName": "Edit3.png",
+                  "imgSourceType": "BY_UPLOAD",
+                  "fileFormat": "image/png",
+                  "originalId": "1774648748528",
+                  "originalWidth": 512,
+                  "originalHeight": 512
+                }
+              },
+              "border": {
+                "type": "solid",
+                "color": "#000000",
+                "width": "1px"
+              }
+            },
+            "hover": {
+              "enableDynamicStyle": false,
+              "background": {
+                "color": "#f3f4f6",
+                "fillType": "fit"
+              }
+            }
+          },
+          "useCustom": true
+        }
+      },
+      "id": "widget_17",
+      "useDataSources": []
+    },
+    "widget_18": {
+      "uri": "widgets/home-view/",
+      "version": "1.18.0",
+      "label": "Home Extent",
+      "config": {},
+      "id": "widget_18",
+      "useMapWidgetIds": [
+        "widget_1"
+      ]
+    }
+  },
+  "widgetsManifest": {},
+  "views": {},
+  "sections": {},
+  "dialogs": {},
+  "messageConfigs": {
+    "messageConfig_4": {
+      "id": "messageConfig_4",
+      "widgetId": "widget_17",
+      "messageType": "BUTTON_CLICK",
+      "actions": [
+        {
+          "actionId": "widget_15-toggleSidebar-1774647486330",
+          "widgetId": "widget_15",
+          "sectionId": null,
+          "messageWidgetId": "widget_17",
+          "actionName": "toggleSidebar",
+          "description": null,
+          "version": "1.18.0"
+        }
+      ]
+    }
+  },
+  "attributes": {
+    "portalUrl": "https://alfredbenesch.maps.arcgis.com"
+  },
+  "timestamp": 1774649429466,
+  "sharedThemeVariables": null,
+  "dataSources": {
+    "dataSource_1": {
+      "id": "dataSource_1",
+      "type": "WEB_MAP",
+      "sourceLabel": "Johnson County Effective Data_ BLE_ and Comments",
+      "itemId": "a95b80c0cf3945408763230ce241aa90",
+      "portalUrl": "https://alfredbenesch.maps.arcgis.com"
+    }
+  },
+  "pageStructure": [
+    {
+      "page_0": []
+    }
+  ],
+  "header": {
+    "layout": {
+      "LARGE": "layout_2"
+    },
+    "height": {
+      "LARGE": 30
+    },
+    "backgroundColor": "#2e7d32"
+  }
+}
